@@ -9,7 +9,7 @@
 **Hint:** Use `justify-content: space-between` for the container.
 
 **Elements:**
-- Logo: `https://picsum.photos/100/40?text=Logo`
+- Logo: `https://dummyimage.com/100x40/4a90e2/ffffff&text=Logo`
 - Menu items: "Home", "About", "Services", "Contact"
 
 **Solution:** [view page](task-1/index.html)
@@ -23,7 +23,7 @@
 **Hint:** Use `height: 100vh`, `display: flex`, `justify-content: center`, `align-items: center` for the container.
 
 **Elements:**
-- Content block: `https://picsum.photos/300/200?text=Centered`
+- Content block: `https://dummyimage.com/300x200/2ecc71/ffffff&text=Centered`
 
 **Solution:** [view page](task-2/index.html)
 
@@ -36,8 +36,8 @@
 **Hint:** Use `flex-direction: column` and `align-items: center`.
 
 **Elements:**
-- Avatar: `https://picsum.photos/80/80?text=Avatar`
-- Cover: `https://picsum.photos/300/150?text=Profile`
+- Avatar: `https://dummyimage.com/80x80/e74c3c/ffffff&text=Avatar`
+- Cover: `https://dummyimage.com/300x150/34495e/ffffff&text=Profile`
 
 **Solution:** [view page](task-3/index.html)
 
@@ -50,9 +50,9 @@
 **Hint:** Use column flexbox for body with `min-height: 100vh`. For main use `flex: 1`.
 
 **Elements:**
-- Header: `https://picsum.photos/1200/70?text=Header`
-- Main: `https://picsum.photos/1200/400?text=Main+Content`
-- Footer: `https://picsum.photos/1200/70?text=Footer`
+- Header: `https://dummyimage.com/1200x70/2c3e50/ffffff&text=Header`
+- Main: `https://dummyimage.com/1200x400/ecf0f1/333333&text=Main+Content`
+- Footer: `https://dummyimage.com/1200x70/2c3e50/ffffff&text=Footer`
 
 **Solution:** [view page](task-4/index.html)
 
@@ -65,7 +65,7 @@
 **Hint:** Use `flex-wrap: wrap` and `justify-content: space-around`.
 
 **Elements:**
-- Images: `https://picsum.photos/150/150?text=Image+1` (change number 1-6)
+- Images: `https://dummyimage.com/150x150/9b59b6/ffffff&text=Image+1` (change number 1-6)
 
 **Solution:** [view page](task-5/index.html)
 
@@ -78,9 +78,9 @@
 **Hint:** For center column use `flex: 1`.
 
 **Elements:**
-- Left sidebar: `https://picsum.photos/200/400?text=Sidebar+Left`
-- Main content: `https://picsum.photos/600/400?text=Main+Content`
-- Right sidebar: `https://picsum.photos/150/400?text=Sidebar+Right`
+- Left sidebar: `https://dummyimage.com/200x400/3498db/ffffff&text=Sidebar+Left`
+- Main content: `https://dummyimage.com/600x400/ecf0f1/333333&text=Main+Content`
+- Right sidebar: `https://dummyimage.com/150x400/3498db/ffffff&text=Sidebar+Right`
 
 **Solution:** [view page](task-6/index.html)
 
@@ -93,8 +93,8 @@
 **Hint:** Similar to Task 1 but inside footer.
 
 **Elements:**
-- Social icons: `https://picsum.photos/30/30?text=FB`, `https://picsum.photos/30/30?text=TW`, `https://picsum.photos/30/30?text=IG`
-- Footer background: `https://picsum.photos/1200/80?text=Footer`
+- Social icons: `https://dummyimage.com/30x30/3b5998/ffffff&text=FB`, `https://dummyimage.com/30x30/1da1f2/ffffff&text=TW`, `https://dummyimage.com/30x30/e4405f/ffffff&text=IG`
+- Footer background: `https://dummyimage.com/1200x80/2c3e50/ffffff&text=Footer`
 
 **Solution:** [view page](task-7/index.html)
 
@@ -120,7 +120,7 @@
 **Hint:** For card container use `flex-direction: column`. For button use `margin-top: auto`.
 
 **Elements:**
-- Product image: `https://picsum.photos/250/180?text=Product`
+- Product image: `https://dummyimage.com/250x180/f39c12/ffffff&text=Product`
 
 **Solution:** [view page](task-9/index.html)
 
@@ -133,7 +133,7 @@
 **Hint:** Change `flex-direction` from `row` to `column` inside media query.
 
 **Elements:**
-- Logo: `https://picsum.photos/120/40?text=Logo`
+- Logo: `https://dummyimage.com/120x40/4a90e2/ffffff&text=Logo`
 - Menu items: "Home", "About", "Blog", "Contact"
 
 **Solution:** [view page](task-10/index.html)
@@ -145,9 +145,9 @@
 **Task:** Build layout: header, footer, left sidebar (navigation, 200px), right sidebar (ads, 150px), main content (fluid). Content should be centered on page.
 
 **Elements:**
-- Header: `https://picsum.photos/1200/100?text=Header`
-- Main content: `https://picsum.photos/600/400?text=Main+Content`
-- Footer: `https://picsum.photos/1200/80?text=Footer`
+- Header: `https://dummyimage.com/1200x100/2c3e50/ffffff&text=Header`
+- Main content: `https://dummyimage.com/600x400/ecf0f1/333333&text=Main+Content`
+- Footer: `https://dummyimage.com/1200x80/2c3e50/ffffff&text=Footer`
 
 **Solution:** [view page](task-11/index.html)
 
@@ -158,7 +158,7 @@
 **Task:** Make 6 product cards. Each card: image, title, price, "Buy" button. Cards should wrap and take equal width (min 250px).
 
 **Elements:**
-- Product images: `https://picsum.photos/250/200?text=Product+1` (change number 1-6)
+- Product images: `https://dummyimage.com/250x200/e74c3c/ffffff&text=Product+1` (change number 1-6)
 
 **Solution:** [view page](task-12/index.html)
 
@@ -169,8 +169,8 @@
 **Task:** Create profile block: wide cover, circular avatar overlapping the cover, username and description below avatar.
 
 **Elements:**
-- Cover: `https://picsum.photos/800/200?text=Cover`
-- Avatar: `https://picsum.photos/100/100?text=Avatar`
+- Cover: `https://dummyimage.com/800x200/34495e/ffffff&text=Cover`
+- Avatar: `https://dummyimage.com/100x100/e74c3c/ffffff&text=Avatar`
 
 **Solution:** [view page](task-13/index.html)
 
@@ -181,7 +181,7 @@
 **Task:** Create comment component: avatar on left (fixed width), user name and comment text on right taking all remaining space.
 
 **Elements:**
-- Avatar: `https://picsum.photos/60/60?text=Avatar`
+- Avatar: `https://dummyimage.com/60x60/95a5a6/ffffff&text=Avatar`
 
 **Solution:** [view page](task-14/index.html)
 
@@ -205,7 +205,7 @@
 **Task:** Create "You Might Like" block with 3 articles. Each article: image on top, title, excerpt, and publish date. All articles same height.
 
 **Elements:**
-- Article images: `https://picsum.photos/300/150?text=Article+1` (change number 1-3)
+- Article images: `https://dummyimage.com/300x150/27ae60/ffffff&text=Article+1` (change number 1-3)
 
 **Solution:** [view page](task-16/index.html)
 
@@ -231,7 +231,7 @@
 **Hint:** Use `gap` for spacing between notifications.
 
 **Elements:**
-- Icons: `https://picsum.photos/20/20?text=✓` (success), `https://picsum.photos/20/20?text=!` (warning), `https://picsum.photos/20/20?text=X` (error)
+- Icons: `https://dummyimage.com/20x20/27ae60/ffffff&text=✓` (success), `https://dummyimage.com/20x20/f39c12/ffffff&text=!` (warning), `https://dummyimage.com/20x20/e74c3c/ffffff&text=X` (error)
 
 **Solution:** [view page](task-18/index.html)
 
@@ -255,6 +255,6 @@
 **Hint:** Use `align-self: stretch` and `margin-top: auto` for buttons.
 
 **Elements:**
-- Card backgrounds: `https://picsum.photos/280/350?text=Basic`, `https://picsum.photos/300/370?text=Pro`, `https://picsum.photos/280/350?text=Enterprise`
+- Card backgrounds: `https://dummyimage.com/280x350/95a5a6/ffffff&text=Basic`, `https://dummyimage.com/300x370/3498db/ffffff&text=Pro`, `https://dummyimage.com/280x350/2c3e50/ffffff&text=Enterprise`
 
 **Solution:** [view page](task-20/index.html)
