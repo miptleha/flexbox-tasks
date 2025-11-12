@@ -1,6 +1,6 @@
 # 20 Practical Flexbox Tasks
 
-> 🚧 **Solutions not ready yet**
+> 🚧 **The solutions are not ready yet**
 
 ## Task 1: Simple Horizontal Navigation Bar
 
