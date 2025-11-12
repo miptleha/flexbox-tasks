@@ -7,6 +7,7 @@
 **Elements:**
 - Logo: `https://picsum.photos/100/40?text=Logo`
 - Menu items: "Home", "About", "Services", "Contact"
+
 **Solution:** [task-1/index.html](task-1/index.html)
 
 ## Task 2: Vertical and Horizontal Centering
