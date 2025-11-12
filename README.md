@@ -2,13 +2,15 @@
 
 ## Task 1: Simple Horizontal Navigation Bar
 **Objective:** Master `display: flex`, `flex-direction`, and main axis alignment.
+
 **Task:** Create a horizontal menu with logo on the left and 4 navigation items on the right. The menu should span the full screen width.
+
 **Hint:** Use `justify-content: space-between` for the container.
 **Elements:**
 - Logo: `https://picsum.photos/100/40?text=Logo`
 - Menu items: "Home", "About", "Services", "Contact"
 
-**Solution:** [task-1/index.html](task-1/index.html)
+**[Solution](task-1/index.html)**
 
 ## Task 2: Vertical and Horizontal Centering
 **Objective:** Practice alignment on both axes.
