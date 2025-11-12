@@ -12,7 +12,7 @@
 - Logo: `https://dummyimage.com/100x40/4a90e2/ffffff&text=Logo`
 - Menu items: "Home", "About", "Services", "Contact"
 
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-1/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/https://miptleha.github.io/flexbox-tasks/solution/task-1/index.html)
 
 ## Task 2: Vertical and Horizontal Centering
 
@@ -25,7 +25,7 @@
 **Elements:**
 - Content block: `https://dummyimage.com/300x200/2ecc71/ffffff&text=Centered`
 
-**Solution:** [view page](solution/task-2/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-2/index.html)
 
 ## Task 3: User Profile Card (Vertical Stack)
 
@@ -39,7 +39,7 @@
 - Avatar: `https://dummyimage.com/80x80/e74c3c/ffffff&text=Avatar`
 - Cover: `https://dummyimage.com/300x150/34495e/ffffff&text=Profile`
 
-**Solution:** [view page](solution/task-3/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-3/index.html)
 
 ## Task 4: Basic Page Layout (Header, Main, Footer)
 
@@ -54,7 +54,7 @@
 - Main: `https://dummyimage.com/1200x400/ecf0f1/333333&text=Main+Content`
 - Footer: `https://dummyimage.com/1200x70/2c3e50/ffffff&text=Footer`
 
-**Solution:** [view page](solution/task-4/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-4/index.html)
 
 ## Task 5: Flexible Image Grid
 
@@ -67,7 +67,7 @@
 **Elements:**
 - Images: `https://dummyimage.com/150x150/9b59b6/ffffff&text=Image+1` (change number 1-6)
 
-**Solution:** [view page](solution/task-5/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-5/index.html)
 
 ## Task 6: Columns with Different Widths
 
@@ -82,7 +82,7 @@
 - Main content: `https://dummyimage.com/600x400/ecf0f1/333333&text=Main+Content`
 - Right sidebar: `https://dummyimage.com/150x400/3498db/ffffff&text=Sidebar+Right`
 
-**Solution:** [view page](solution/task-6/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-6/index.html)
 
 ## Task 7: Simple Footer with Social Icons
 
@@ -96,7 +96,7 @@
 - Social icons: `https://dummyimage.com/30x30/3b5998/ffffff&text=FB`, `https://dummyimage.com/30x30/1da1f2/ffffff&text=TW`, `https://dummyimage.com/30x30/e4405f/ffffff&text=IG`
 - Footer background: `https://dummyimage.com/1200x80/2c3e50/ffffff&text=Footer`
 
-**Solution:** [view page](solution/task-7/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-7/index.html)
 
 ## Task 8: Menu with Separators
 
@@ -109,7 +109,7 @@
 **Elements:**
 - Menu items: "Home", "Products", "About", "Contact"
 
-**Solution:** [view page](solution/task-8/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-8/index.html)
 
 ## Task 9: Product Card with "Sticky" Action
 
@@ -122,7 +122,7 @@
 **Elements:**
 - Product image: `https://dummyimage.com/250x180/f39c12/ffffff&text=Product`
 
-**Solution:** [view page](solution/task-9/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-9/index.html)
 
 ## Task 10: Responsive Navbar
 
@@ -136,7 +136,7 @@
 - Logo: `https://dummyimage.com/120x40/4a90e2/ffffff&text=Logo`
 - Menu items: "Home", "About", "Blog", "Contact"
 
-**Solution:** [view page](solution/task-10/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-10/index.html)
 
 ## Task 11: Holy Grail Layout
 
@@ -149,7 +149,7 @@
 - Main content: `https://dummyimage.com/600x400/ecf0f1/333333&text=Main+Content`
 - Footer: `https://dummyimage.com/1200x80/2c3e50/ffffff&text=Footer`
 
-**Solution:** [view page](solution/task-11/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-11/index.html)
 
 ## Task 12: Product Cards Grid
 
@@ -160,7 +160,7 @@
 **Elements:**
 - Product images: `https://dummyimage.com/250x200/e74c3c/ffffff&text=Product+1` (change number 1-6)
 
-**Solution:** [view page](solution/task-12/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-12/index.html)
 
 ## Task 13: User Profile with Cover
 
@@ -172,7 +172,7 @@
 - Cover: `https://dummyimage.com/800x200/34495e/ffffff&text=Cover`
 - Avatar: `https://dummyimage.com/100x100/e74c3c/ffffff&text=Avatar`
 
-**Solution:** [view page](solution/task-13/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-13/index.html)
 
 ## Task 14: Media Object (Comment)
 
@@ -183,7 +183,7 @@
 **Elements:**
 - Avatar: `https://dummyimage.com/60x60/95a5a6/ffffff&text=Avatar`
 
-**Solution:** [view page](solution/task-14/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-14/index.html)
 
 ## Task 15: Fixed Bottom Action Bar
 
@@ -196,7 +196,7 @@
 **Elements:**
 - Buttons: "Back", "Add to Cart", "Buy Now"
 
-**Solution:** [view page](solution/task-15/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-15/index.html)
 
 ## Task 16: "Related Articles" Layout
 
@@ -207,7 +207,7 @@
 **Elements:**
 - Article images: `https://dummyimage.com/300x150/27ae60/ffffff&text=Article+1` (change number 1-3)
 
-**Solution:** [view page](solution/task-16/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-16/index.html)
 
 ## Task 17: Filters and Sort Row
 
@@ -220,7 +220,7 @@
 **Elements:**
 - No images needed
 
-**Solution:** [view page](solution/task-17/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-17/index.html)
 
 ## Task 18: Notifications Stack
 
@@ -233,7 +233,7 @@
 **Elements:**
 - Icons: `https://dummyimage.com/20x20/27ae60/ffffff&text=✓` (success), `https://dummyimage.com/20x20/f39c12/ffffff&text=!` (warning), `https://dummyimage.com/20x20/e74c3c/ffffff&text=X` (error)
 
-**Solution:** [view page](solution/task-18/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-18/index.html)
 
 ## Task 19: Navbar with Dropdown Menu
 
@@ -244,7 +244,7 @@
 **Elements:**
 - No images needed, text only
 
-**Solution:** [view page](solution/task-19/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-19/index.html)
 
 ## Task 20: Pricing Cards with Emphasis
 
@@ -257,4 +257,4 @@
 **Elements:**
 - Card backgrounds: `https://dummyimage.com/280x350/95a5a6/ffffff&text=Basic`, `https://dummyimage.com/300x370/3498db/ffffff&text=Pro`, `https://dummyimage.com/280x350/2c3e50/ffffff&text=Enterprise`
 
-**Solution:** [view page](solution/task-20/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-20/index.html)
