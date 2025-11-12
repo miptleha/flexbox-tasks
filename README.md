@@ -1,5 +1,7 @@
 # 20 Practical Flexbox Tasks
 
+> 🚧 **Solutions not ready yet**
+
 ## Task 1: Simple Horizontal Navigation Bar
 
 **Objective:** Master `display: flex`, `flex-direction`, and main axis alignment.
