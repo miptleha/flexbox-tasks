@@ -12,3 +12,10 @@ body {
 .centered-content__image {
     border-radius: 8px;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
