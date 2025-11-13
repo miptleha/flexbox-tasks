@@ -14,7 +14,7 @@
 - Logo: `https://dummyimage.com/100x40/4a90e2/ffffff&text=Logo`
 - Menu items: "Home", "About", "Services", "Contact"
 
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/https://miptleha.github.io/flexbox-tasks/solution/task-1/index.html)
+**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-1/index.html)
 
 ## Task 2: Vertical and Horizontal Centering
 
