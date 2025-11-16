@@ -1,10 +1,9 @@
-.container {
+.igrid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.item {
-    padding: 20px;
-    border: 1px solid black;
-    box-sizing: border-box;
+.igrid__img {
+    flex: 0;
 }
