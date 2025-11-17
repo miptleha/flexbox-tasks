@@ -1,9 +1,21 @@
-.igrid {
+.image-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    width: 800px;
+    gap: 20px;
 }
 
-.igrid__img {
-    flex: 0;
+.image-grid__item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.image-grid__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
