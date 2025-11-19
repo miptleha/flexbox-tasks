@@ -1,4 +1,4 @@
-body {
+.content {
     display: flex;
     min-height: 100vh;
     margin: 0;
@@ -22,6 +22,7 @@ body {
     width: 150px;
     padding: 10px;
     flex-shrink: 0;
+    order: 2;
 }
 
 .left-sidebar__bg, .main-content__bg, .right-sidebar__bg {

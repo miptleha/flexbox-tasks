@@ -29,11 +29,6 @@
 
 .footer__link {
     color: white;
-    text-decoration: none;
-}
-
-.nav__link:hover, .footer__link:hover {
-    border-bottom: 1px solid white;
 }
 
 .page__main {
