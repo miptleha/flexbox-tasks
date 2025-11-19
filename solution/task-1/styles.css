@@ -16,3 +16,7 @@
     color: #333;
     border: 1px solid #ddd;
 }
+
+.main-nav__link:hover {
+    border: 1px solid #aaa;
+}
