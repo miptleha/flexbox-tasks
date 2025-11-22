@@ -4,7 +4,7 @@ body {
 
 .navbar {
     background: #2c3e50;
-    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding: 1rem 0;
 }
 
@@ -15,10 +15,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-}
-
-.navbar__toggler {
-    display: none;
 }
 
 .navbar__menu {
@@ -43,4 +39,79 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+/* toggle menu button (visible on narrow screen) */
+.navbar__toggler {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.navbar__toggler:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.navbar__toggler-icon {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+}
+
+.navbar__toggler-icon::before, .navbar__toggler-icon::after {
+    content: '';
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+
+.navbar__toggler-icon::before {
+    top: -8px;
+}
+
+.navbar__toggler-icon::after {
+    top: 8px;
+}
+
+@media (max-width: 768px) {
+    .navbar__toggler {
+        display: flex;
+    }
+
+    .navbar__container {
+        flex-wrap: wrap;
+    }
+
+    .navbar__menu {
+        width: 100%;
+        flex-direction: column;
+
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease 0.3s;
+    }
+
+    .navbar__menu.active {
+        margin-top: 1rem;
+        max-height: 500px;
+    }
+
+    .navbar__link {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .navbar__link:last-child {
+        border-bottom: none;
+    }
 }
