@@ -1,10 +1,38 @@
-.container {
+body {
+    margin: 0;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.item {
-    padding: 20px;
-    border: 1px solid black;
-    box-sizing: border-box;
+.header, .footer {
+    flex: 0 0 70px;
+    position: relative;
+}
+
+.header__img, .footer__img, .content__center-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.content__left {
+    width: 200px;
+}
+
+.content__right {
+    width: 150px;
+    order: 2;
+}
+
+.content__center {
+    flex: 1;
+    position: relative;
 }
