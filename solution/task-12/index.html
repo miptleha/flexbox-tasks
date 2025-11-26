@@ -13,44 +13,80 @@
             <a href="https://github.com/miptleha/flexbox-tasks/blob/main/solution/task-12/index.html">HTML</a>,
             <a href="https://github.com/miptleha/flexbox-tasks/blob/main/solution/task-12/styles.css">CSS</a>
         </div>
-
-        <div class="card-container">
-            <div class="card">
-                <img src="images/product1.png" alt="Product1" class="card__image">
-                <div class="card__title">Product1</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
-            <div class="card">
-                <img src="images/product2.png" alt="Product2" class="card__image">
-                <div class="card__title">Product2</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
-            <div class="card">
-                <img src="images/product3.png" alt="Product3" class="card__image">
-                <div class="card__title">Product3</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
-            <div class="card">
-                <img src="images/product4.png" alt="Product4" class="card__image">
-                <div class="card__title">Product4</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
-            <div class="card">
-                <img src="images/product5.png" alt="Product5" class="card__image">
-                <div class="card__title">Product5</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
-            <div class="card">
-                <img src="images/product6.png" alt="Product6" class="card__image">
-                <div class="card__title">Product6</div>
-                <div class="card__price">100$</div>
-                <button class="card__buy-button">Buy</button>
-            </div>
+        <div class="products">
+            <article class="product-card product-card--badged">
+                <div class="product-card__image">
+                    <img src="images/product1.png" alt="Product 1" class="product-card__img">
+                    <div class="product-card__badge">New</div>
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Wireless Headphones Headphones</h3>
+                    <p class="product-card__description">High-quality sound with noise cancellation technology. Noise cancelling technology uses active electronic circuitry to reduce unwanted ambient sounds, creating a more immersive and focused listening experience.</p>
+                    <div class="product-card__price">$199.99</div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card product-card--sale">
+                <div class="product-card__image">
+                    <img src="images/product2.png" alt="Product 2" class="product-card__img">
+                    <div class="product-card__badge product-card__badge--sale">Sale</div>
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Smart Watch</h3>
+                    <p class="product-card__description">Fitness tracking and smartphone notifications</p>
+                    <div class="product-card__price">
+                        <span class="product-card__price--old">$299.99</span>
+                        <span class="product-card__price--current">$249.99</span>
+                    </div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-card__image">
+                    <img src="images/product3.png" alt="Product 3" class="product-card__img">
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Laptop Backpack</h3>
+                    <p class="product-card__description">Water-resistant with USB charging port</p>
+                    <div class="product-card__price">$79.99</div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-card__image">
+                    <img src="images/product4.png" alt="Product 4" class="product-card__img">
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Coffee Maker</h3>
+                    <p class="product-card__description">Programmable with built-in grinder</p>
+                    <div class="product-card__price">$149.99</div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card product-card--badged">
+                <div class="product-card__image">
+                    <img src="images/product5.png" alt="Product 5" class="product-card__img">
+                    <div class="product-card__badge">Limited</div>
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Bluetooth Speaker</h3>
+                    <p class="product-card__description">360° sound with 12-hour battery</p>
+                    <div class="product-card__price">$129.99</div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
+            <article class="product-card product-card--featured">
+                <div class="product-card__image">
+                    <img src="images/product6.png" alt="Product 6" class="product-card__img">
+                    <div class="product-card__badge product-card__badge--featured">Featured</div>
+                </div>
+                <div class="product-card__content">
+                    <h3 class="product-card__title">Gaming Mouse</h3>
+                    <p class="product-card__description">RGB lighting with 16000 DPI sensor</p>
+                    <div class="product-card__price">$89.99</div>
+                    <button class="product-card__button">Buy</button>
+                </div>
+            </article>
         </div>
     </div>
 </body>
