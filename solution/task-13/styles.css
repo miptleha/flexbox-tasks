@@ -142,3 +142,21 @@ body {
     background-color: #d5dbdb;
     box-shadow: 0 4px 12px rgba(100,100,100,0.2);
 }
+
+@media (width <= 480px) {
+    .profile__content {
+        padding: 60px 1rem 1rem;
+    }
+
+    .profile__stats {
+        flex-direction: column;
+    }
+
+    .profile__actions {
+        flex-wrap: wrap;
+    }
+
+    .profile__button {
+        max-width: none;
+    }
+}

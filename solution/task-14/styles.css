@@ -3,11 +3,33 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .info {
     margin-bottom: 1rem;
     padding-left: 1rem;
+}
+
+.comments__actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comments__add {
+    padding: 0.75rem 1.5rem;
+    background-color: #ccc;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    margin: 1rem;
+}
+
+.comments__add:hover {
+    background-color: #999;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .comment {
@@ -16,23 +38,26 @@ body {
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     padding: 1rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
 }
 
 .comment__img {
     width: 60px;
     height: 60px;
     object-fit: fill;
-    align-self: center;
+    border-radius: 50%;
 }
 
 .comment__content {
     flex: 1;
-    margin: 1rem;
+    margin: 0 1rem;
 }
 
 .comment__author {
     font-size: 1.2rem;
     font-weight: 600;
+    margin: 0 1rem 1rem 0;
 }
 
 .comment__text {
