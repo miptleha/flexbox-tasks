@@ -3,16 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="profile">
-        <img src="images/cover.png" alt="Cover" class="profile__cover">
-        <div class="profile__content">
+        <div class="profile__cover-container">
+            <img src="images/cover.png" alt="Cover" class="profile__cover">
+        </div>
+        <div class="profile__avatar-container">
             <img src="images/avatar.png" alt="Avatar" class="profile__avatar">
-            <h2 class="profile__username">Miptleha</h2>
-            <div class="profile__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla impedit voluptatibus dignissimos autem quisquam nostrum aspernatur at magni sint illum error, aliquam perspiciatis quod ipsum et deleniti voluptas culpa odit!</div>
+        </div>
+
+        <div class="profile__content">
+            <h2 class="profile__name">John Doe</h2>
+            <div class="profile__title">Frontend Developer</div>
+            <div class="profile__description">
+                Passionate about creating beautiful and functional user interfaces. 
+                Love working with React, Vue.js, and modern CSS. Open to new opportunities 
+                and interesting projects.
+            </div>
+
+            <div class="profile__stats">
+                <div class="profile__stat">
+                    <div class="profile__stat-num">247</div>
+                    <div class="profile__stat-name">Posts</div>
+                </div>
+                <div class="profile__stat">
+                    <div class="profile__stat-num">1.2K</div>
+                    <div class="profile__stat-name">Followers</div>
+                </div>
+                <div class="profile__stat">
+                    <div class="profile__stat-num">113</div>
+                    <div class="profile__stat-name">Following</div>
+                </div>
+            </div>
+
+            <div class="profile__actions">
+                <button class="profile__button profile__button--primary">Follow</button>
+                <button class="profile__button profile__button--secondary">Message</button>
+            </div>
         </div>
     </div>
 </body>
