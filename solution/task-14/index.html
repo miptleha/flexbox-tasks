@@ -14,19 +14,68 @@
             <a href="https://github.com/miptleha/flexbox-tasks/blob/main/solution/task-14/styles.css">CSS</a>
         </div>
         <div class="comments">
-            <button class="comments__add">Add Comment</button>
+            <div class="comments__actions">
+                <button class="comment__action">Add Comment</button>
+            </div>
             <article class="comment">
-                <img src="avatar.png" alt="Avatar" class="comment__img">
+                <div class="comment__avatar">
+                    <img src="https://dummyimage.com/60x60/f59e0b/ffffff&text=JD" alt="John Doe" class="comment__avatar-img">
+                </div>
                 <div class="comment__content">
-                    <h3 class="comment__author">John Doe</h3>
-                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores obcaecati deleniti recusandae molestiae iusto ex reiciendis tempore inventore, eius quaerat harum culpa hic perspiciatis ea tenetur assumenda! Unde, repellendus?</p>
+                    <div class="comment__header">
+                        <h3 class="comment__author">John Doe</h3>
+                        <span class="comment__time">2 hours ago</span>
+                    </div>
+                    <p class="comment__text">
+                        This is exactly what I was looking for! The step-by-step explanation makes it 
+                        easy to understand even for beginners. Looking forward to more content like this!
+                    </p>
+                    <div class="comment__actions">
+                        <button class="comment__action comment__action--like">👍 24</button>
+                        <button class="comment__action comment__action--reply">💬 Reply</button>
+                        <button class="comment__action comment__action--share">↗️ Share</button>
+                    </div>
+                </div>
+            </article>
+            <article class="comment comment--reply">
+                <div class="comment__avatar">
+                    <img src="https://dummyimage.com/60x60/3b82f6/ffffff&text=MS" alt="Mike Smith" class="comment__avatar-img">
+                </div>
+                <div class="comment__content">
+                    <div class="comment__header">
+                        <h3 class="comment__author">Mike Smith</h3>
+                        <span class="comment__time">1 hours ago</span>
+                        <span class="comment__badge">Author</span>
+                    </div>
+                    <p class="comment__text">
+                        Thank you so much for the praise. It motivates me to keep making similar content.
+                    </p>
+                    <div class="comment__actions">
+                        <button class="comment__action comment__action--like">👍 1</button>
+                        <button class="comment__action comment__action--reply">💬 Reply</button>
+                        <button class="comment__action comment__action--share">↗️ Share</button>
+                    </div>
                 </div>
             </article>
             <article class="comment">
-                <img src="avatar.png" alt="Avatar" class="comment__img">
+                <div class="comment__avatar">
+                    <img src="https://dummyimage.com/60x60/3b82f6/ffffff&text=MS" alt="Mike Smith" class="comment__avatar-img">
+                </div>
                 <div class="comment__content">
-                    <h3 class="comment__author">John Doe</h3>
-                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores obcaecati deleniti recusandae molestiae iusto ex reiciendis tempore inventore, eius quaerat harum culpa hic perspiciatis ea tenetur assumenda! Unde, repellendus?</p>
+                    <div class="comment__header">
+                        <h3 class="comment__author">Mike Smith</h3>
+                        <span class="comment__time">1 day ago</span>
+                        <span class="comment__badge">Author</span>
+                    </div>
+                    <p class="comment__text">
+                        I've been using this approach in my projects and it significantly 
+                        improved the performance. The code examples are very clear and easy to follow.
+                    </p>
+                    <div class="comment__actions">
+                        <button class="comment__action comment__action--like">👍 33</button>
+                        <button class="comment__action comment__action--reply">💬 Reply</button>
+                        <button class="comment__action comment__action--share">↗️ Share</button>
+                    </div>
                 </div>
             </article>
         </div>

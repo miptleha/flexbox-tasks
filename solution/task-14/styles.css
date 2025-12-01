@@ -9,12 +9,10 @@ body {
 
 .info {
     margin-bottom: 1rem;
-    padding-left: 1rem;
 }
 
 .comments__actions {
-    display: flex;
-    justify-content: flex-end;
+    margin-bottom: 1rem;
 }
 
 .comments__add {
@@ -24,7 +22,7 @@ body {
     border: none;
     cursor: pointer;
     transition: all ease 0.2s;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .comments__add:hover {
@@ -40,6 +38,24 @@ body {
     padding: 1rem;
     margin-bottom: 1rem;
     max-width: 500px;
+    box-sizing: border-box;
+}
+
+.comment--reply {
+    position: relative;
+    margin-left: 1rem;
+}
+
+.comment--reply::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #667eea;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .comment__img {
@@ -63,4 +79,28 @@ body {
 .comment__text {
     font-size: 0.9rem;
     color: gray;
+}
+
+.comment__action {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.comment__action:hover {
+    background-color: #ddd;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 480px) {
+    .comment {
+        flex-direction: column;
+    }
+
+    .comment__content {
+        margin: 0;
+    }
 }
