@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    background: #f9fafb;
+    color: #1f2937;
+    line-height: 1.6;
+    padding-bottom: 80px; /* Space for fixed action bar */
+}
+
+/* Content area */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+
+/* Main content */
+.main {
+    display: none;
+}
+
+.main.visible {
+    display: block;
+}
+
+
+
+/* Spacer for content */
+.spacer {
+    height: 100px;
+}
+
+/* Fixed Action Bar */
+.action-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(229, 231, 235, 0.8);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.action-bar__content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.action-bar__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.action-bar__price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.price-total {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.price-shipping {
+    background: #10b981;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.action-bar__stock {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.stock-indicator {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.stock-count {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+.action-bar__buttons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+/* Buttons */
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.btn--back {
+    background: rgba(255, 255, 255, 0.9);
+    color: #374151;
+    border: 1px solid #e5e7eb;
+    backdrop-filter: blur(10px);
+}
+
+.btn--back:hover {
+    background: #f3f4f6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn--cart {
+    background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+    color: white;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.btn--cart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.5);
+}
+
+.btn--buy {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.btn--buy:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5);
+}
+
+.btn__icon {
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content {
+        padding: 1rem;
+    }
+    
+    .action-bar__content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .action-bar__buttons {
+        width: 100%;
+    }
+    
+    .btn {
+        flex: 1;
+    }
+    
+    .product-specs {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .action-bar__buttons {
+        flex-direction: column;
+    }
+    
+    .product-info__price {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .header__title {
+        font-size: 1.5rem;
+    }
+    
+    .price-current {
+        font-size: 1.75rem;
+    }
+}
