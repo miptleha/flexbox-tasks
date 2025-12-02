@@ -22,6 +22,7 @@ body {
     flex-wrap: wrap;
     gap: 1em;
     max-width: 1200px;
+    margin-bottom: 1rem;
 }
 
 .product-card {
