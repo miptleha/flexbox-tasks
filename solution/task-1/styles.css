@@ -8,6 +8,8 @@
 .main-nav__menu {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 .main-nav__link {
