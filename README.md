@@ -1,6 +1,4 @@
-# 20 Practical Flexbox Tasks
-
-> 🚧 **The solutions are not ready yet**
+# 15 Practical Flexbox Tasks
 
 ## Task 1: Simple Horizontal Navigation Bar
 
@@ -199,64 +197,3 @@
 - Buttons: "Back", "Add to Cart", "Buy Now"
 
 **Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-15/index.html)
-
-## Task 16: "Related Articles" Layout
-
-**Objective:** Combine column and row flexboxes.
-
-**Task:** Create "You Might Like" block with 3 articles. Each article: image on top, title, excerpt, and publish date. All articles same height.
-
-**Elements:**
-- Article images: `https://dummyimage.com/300x150/27ae60/ffffff&text=Article+1` (change number 1-3)
-
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-16/index.html)
-
-## Task 17: Filters and Sort Row
-
-**Objective:** Group heterogeneous elements in one row.
-
-**Task:** Create filter panel with: dropdown "Categories", checkboxes "In Stock", search field, and "Reset Filters" button. Search should take all available space.
-
-**Hint:** For search field use `flex: 1`.
-
-**Elements:**
-- No images needed
-
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-17/index.html)
-
-## Task 18: Notifications Stack
-
-**Objective:** Vertical layout with spacing.
-
-**Task:** Create 3 different type notifications (success, error, warning) stacked vertically. Notifications should have internal padding and left icon.
-
-**Hint:** Use `gap` for spacing between notifications.
-
-**Elements:**
-- Icons: `https://dummyimage.com/20x20/27ae60/ffffff&text=✓` (success), `https://dummyimage.com/20x20/f39c12/ffffff&text=!` (warning), `https://dummyimage.com/20x20/e74c3c/ffffff&text=X` (error)
-
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-18/index.html)
-
-## Task 19: Navbar with Dropdown Menu
-
-**Objective:** Nested flex containers for complex navigation.
-
-**Task:** Create horizontal menu where one item shows dropdown (vertical) on hover. Use flexbox for dropdown positioning.
-
-**Elements:**
-- No images needed, text only
-
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-19/index.html)
-
-## Task 20: Pricing Cards with Emphasis
-
-**Objective:** Control element order and alignment.
-
-**Task:** Create 3 pricing cards. Make middle card emphasized (slightly larger). Each card: plan name, price, features list, button. Buttons should align to card bottoms.
-
-**Hint:** Use `align-self: stretch` and `margin-top: auto` for buttons.
-
-**Elements:**
-- Card backgrounds: `https://dummyimage.com/280x350/95a5a6/ffffff&text=Basic`, `https://dummyimage.com/300x370/3498db/ffffff&text=Pro`, `https://dummyimage.com/280x350/2c3e50/ffffff&text=Enterprise`
-
-**Solution:** [view page](https://miptleha.github.io/flexbox-tasks/solution/task-20/index.html)
